@@ -1,0 +1,96 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.0"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1762864289000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "SimpleMvcApp"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "598C8E6E-1722-4644-A3B3-A83C63068EAB"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.projectKey",
+      "value": "SimpleMvcApp:598C8E6E-1722-4644-A3B3-A83C63068EAB"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.projectName",
+      "value": "SimpleMvcApp"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.projectBaseDir",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.working.directory",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.sources",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Controllers\\HomeController.cs,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Models\\ErrorViewModel.cs,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Program.cs,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\SimpleMvcApp.GlobalUsings.g.cs,\"C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs\",C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\SimpleMvcApp.AssemblyInfo.cs,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\SimpleMvcApp.RazorAssemblyInfo.cs,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\css\\site.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\favicon.ico,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\js\\site.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\bootstrap\\LICENSE,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery\\dist\\jquery.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\wwwroot\\lib\\jquery\\LICENSE.txt,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\appsettings.Development.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\appsettings.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\Home\\Index.cshtml,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\Home\\Privacy.cshtml,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\Shared\\Error.cshtml,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\Shared\\_Layout.cshtml,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\_ViewImports.cshtml,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\_ViewStart.cshtml,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Views\\Shared\\_Layout.cshtml.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\Properties\\launchSettings.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\project.assets.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\SimpleMvcApp.csproj.nuget.dgspec.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\bin\\Debug\\net10.0\\SimpleMvcApp.deps.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\bin\\Debug\\net10.0\\SimpleMvcApp.runtimeconfig.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\bin\\Debug\\net10.0\\SimpleMvcApp.staticwebassets.endpoints.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\bin\\Debug\\net10.0\\SimpleMvcApp.staticwebassets.runtime.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\rbcswa.dswa.cache.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\rjimswa.dswa.cache.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\staticwebassets.build.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\staticwebassets.development.json,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\scopedcss\\bundle\\SimpleMvcApp.styles.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\scopedcss\\projectbundle\\SimpleMvcApp.bundle.scp.css,C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\obj\\Debug\\net10.0\\scopedcss\\Views\\Shared\\_Layout.cshtml.rz.scp.css"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "598C8E6E-1722-4644-A3B3-A83C63068EAB.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\Lenovo\\Desktop\\new\\SimpleMvcApp\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

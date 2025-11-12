@@ -1,0 +1,9 @@
+Ø
+ÌC:\Users\Lenovo\Desktop\new\SimpleMvcApp\obj\Debug\net10.0\Microsoft.AspNetCore.App.SourceGenerators\Microsoft.AspNetCore.SourceGenerators.PublicProgramSourceGenerator\PublicTopLevelProgram.Generated.g.csutf-8g
+\C:\Users\Lenovo\Desktop\new\SimpleMvcApp\obj\Debug\net10.0\SimpleMvcApp.RazorAssemblyInfo.csutf-8b
+WC:\Users\Lenovo\Desktop\new\SimpleMvcApp\obj\Debug\net10.0\SimpleMvcApp.AssemblyInfo.csutf-8u
+jC:\Users\Lenovo\Desktop\new\SimpleMvcApp\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8d
+YC:\Users\Lenovo\Desktop\new\SimpleMvcApp\obj\Debug\net10.0\SimpleMvcApp.GlobalUsings.g.csutf-8<
+3C:\Users\Lenovo\Desktop\new\SimpleMvcApp\Program.csutf-8O
+FC:\Users\Lenovo\Desktop\new\SimpleMvcApp\Controllers\HomeController.csutf-8J
+AC:\Users\Lenovo\Desktop\new\SimpleMvcApp\Models\ErrorViewModel.csutf-8

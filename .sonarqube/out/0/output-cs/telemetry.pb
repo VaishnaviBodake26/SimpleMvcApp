@@ -1,0 +1,1 @@
+SR<C:\Users\Lenovo\Desktop\new\SimpleMvcApp\SimpleMvcApp.csproj¢net10.0òCSharp14
