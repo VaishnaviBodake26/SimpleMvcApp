@@ -1,3 +1,4 @@
+
 # SimpleMvcApp
 
 This project provides a comprehensive toolkit for automating SonarQube analysis and reporting for .NET applications. It streamlines the entire workflow, from initiating a code scan to generating detailed, shareable reports in multiple formats.
@@ -74,3 +75,6 @@ Updated Successfully
 - **Visual PDF Reporting**: The reliability of visual reporting is enhanced. The `SonarScreenshotServices` leverages Playwright with an extended 20-second timeout to ensure complex, dynamic dashboards fully render before capture. The screenshot is then converted into a professional PDF, resulting in a complete and accurate visual report.
 
 Updated Successfully
+=======
+new test!!
+
