@@ -1,7 +1,22 @@
+using System.Xml.Serialization;
+using SimpleMvcApp.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<SonarAutomationServices>();
+builder.Services.AddSingleton<SonarScreenshotServices>();
+builder.Services.AddSingleton<SonarDataService>();
+builder.Services.AddSingleton<ScreenshotPdfService>();
+
+var loadContext = new CustomAssemblyLoadContext();
+loadContext.LoadUnmanagedLibrary(
+    Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/wkhtmltox/libwkhtmltox.dll")
+);
+
+// Register DinkToPdf services
+//builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+
 
 var app = builder.Build();
 

@@ -1,0 +1,262 @@
+📄 Project Log File Created
+
+2025-12-02T10:44:46.766Z - 🟢 Logger initialized — Console patched & log file ready
+2025-12-02T10:44:46.768Z - 🔵 Extension activated and logger started
+2025-12-02T11:15:45.114Z - 🟢 Logger initialized — Console patched & log file ready
+2025-12-02T11:15:45.116Z - 🔵 Extension activated and logger started
+2025-12-02T11:17:46.233Z - 🟢 Logger initialized — Console patched & log file ready
+2025-12-02T11:17:46.234Z - 🔵 Extension activated and logger started
+2025-12-02T11:51:23.419Z - 🟢 Logger initialized
+2025-12-02T11:51:23.421Z - 🔵 Extension activated and logger started
+2025-12-02T11:52:08.224Z - 📄 Logs flushed manually
+2025-12-02T12:19:56.039Z - 🟢 Logger initialized
+2025-12-02T12:19:56.040Z - 🔵 Extension activated and logger started
+2025-12-02T12:21:45.841Z - 🟢 Logger initialized
+2025-12-02T12:21:45.842Z - 🔵 Extension activated and logger started
+2025-12-03T05:33:21.231Z - 🟢 Logger initialized
+2025-12-03T05:33:21.234Z - 🔵 Extension activated and logger started
+2025-12-03T05:33:21.238Z - Git logs watching--
+2025-12-03T05:35:15.478Z - ===== GIT LOGS START =====
+2025-12-03T05:35:15.479Z - * d037bc9 (HEAD -> main, origin/main) test custom guidelines
+|  Services/ReportBuilder.cs           |  55 ++++++++++++
+|  Services/ScreenshotPdfService.cs    |  25 ++++++
+|  Services/SonarAutomationServices.cs | 160 ++++++++++++++++++++++++++++++++++
+|  Services/SonarDataService.cs        |  38 ++++++++
+|  Services/SonarReportDTO.cs          |   8 ++
+|  Services/SonarScreenshotServices.cs |  70 +++++++++++++++
+|  Services/UserTest.cs                |  25 ++++++
+|  7 files changed, 381 insertions(+)
+* 1fd876a test commit
+|  Controllers/HomeController.cs                     |   2 ++
+|  Program.cs                                        |   3 ---
+|  bin/Debug/net10.0/SimpleMvcApp.dll                | Bin 48128 -> 48128 bytes
+|  bin/Debug/net10.0/SimpleMvcApp.exe                | Bin 162816 -> 162816 bytes
+|  bin/Debug/net10.0/SimpleMvcApp.pdb                | Bin 34884 -> 35088 bytes
+|  obj/Debug/net10.0/SimpleMvcApp.AssemblyInfo.cs    |   2 +-
+|  .../net10.0/SimpleMvcApp.AssemblyInfoInputs.cache |   2 +-
+|  .../SimpleMvcApp.csproj.FileListAbsolute.txt      |   1 +
+|  obj/Debug/net10.0/SimpleMvcApp.dll                | Bin 48128 -> 48128 bytes
+|  obj/Debug/net10.0/SimpleMvcApp.pdb                | Bin 34884 -> 35088 bytes
+|  obj/Debug/net10.0/SimpleMvcApp.sourcelink.json    |   1 +
+|  obj/Debug/net10.0/apphost.exe                     | Bin 162816 -> 162816 bytes
+|  obj/Debug/net10.0/ref/SimpleMvcApp.dll            | Bin 14848 -> 14848 bytes
+|  obj/Debug/net10.0/refint/SimpleMvcApp.dll         | Bin 14848 -> 14848 bytes
+|  obj/Debug/net10.0/rjsmcshtml.dswa.cache.json      |   2 +-
+|  obj/Debug/net10.0/rjsmrazor.dswa.cache.json       |   2 +-
+|  16 files changed, 8 insertions(+), 7 deletions(-)
+* e001a0e Initial commit for test sonarqube connection
+   .sonarqube/bin/Newtonsoft.Json.dll                |   Bin 0 -> 717736 bytes
+   .sonarqube/bin/SonarScanner.MSBuild.Common.dll    |   Bin 0 -> 133744 bytes
+   .sonarqube/bin/SonarScanner.MSBuild.Tasks.dll     |   Bin 0 -> 56944 bytes
+   .sonarqube/conf/0/FilesToAnalyze.txt              |    81 +
+   .sonarqube/conf/0/ProjectOutFolderPath.txt        |     1 +
+   .sonarqube/conf/0/SonarProjectConfig.xml          |     9 +
+   .sonarqube/conf/Sonar-cs-none.ruleset             |   455 +
+   .sonarqube/conf/Sonar-cs.ruleset                  |   455 +
+   .sonarqube/conf/Sonar-vbnet-none.ruleset          |   203 +
+   .sonarqube/conf/Sonar-vbnet.ruleset               |   203 +
+   .sonarqube/conf/SonarQubeAnalysisConfig.xml       |   191 +
+   .sonarqube/conf/cs/SonarLint.xml                  |  1092 ++
+   .sonarqube/conf/vbnet/SonarLint.xml               |   559 +
+   .sonarqube/out/.sonar/.sonar_lock                 |     0
+   .sonarqube/out/.sonar/report-task.txt             |     6 +
+   .sonarqube/out/0/Issues.json                      |   119 +
+   .sonarqube/out/0/ProjectInfo.xml                  |    20 +
+   .sonarqube/out/0/Telemetry.json                   |     1 +
+   .sonarqube/out/0/output-cs/file-metadata.pb       |     9 +
+   .sonarqube/out/0/output-cs/log.pb                 |     1 +
+   .sonarqube/out/0/output-cs/metrics.pb             |     6 +
+   .sonarqube/out/0/output-cs/symrefs.pb             |    20 +
+   .sonarqube/out/0/output-cs/telemetry.pb           |     1 +
+   .../out/0/output-cs/test-method-declarations.pb   |     0
+   .sonarqube/out/0/output-cs/token-cpd.pb           |   234 +
+   .sonarqube/out/0/output-cs/token-type.pb          |    22 +
+   .sonarqube/out/Processed.Telemetry.S4NET.json     |     8 +
+   .../out/Processed.Telemetry.Targets.S4NET.json    |     2 +
+   .sonarqube/out/ProjectInfo.log                    |    24 +
+   .sonarqube/out/ScannerEngineInput.json            |    96 +
+   .sonarqube/out/sonar-project.properties           |   125 +
+   Controllers/HomeController.cs                     |    24 +
+   Models/ErrorViewModel.cs                          |     8 +
+   Program.cs                                        |    31 +
+   Properties/launchSettings.json                    |    23 +
+   SimpleMvcApp.csproj                               |     9 +
+   Views/Home/Index.cshtml                           |     8 +
+   Views/Home/Privacy.cshtml                         |     6 +
+   Views/Shared/Error.cshtml                         |    25 +
+   Views/Shared/_Layout.cshtml                       |    50 +
+   Views/Shared/_Layout.cshtml.css                   |    48 +
+   Views/Shared/_ValidationScriptsPartial.cshtml     |     2 +
+   Views/_ViewImports.cshtml                         |     3 +
+   Views/_ViewStart.cshtml                           |     3 +
+   appsettings.Development.json                      |     8 +
+   appsettings.json                                  |     9 +
+   bin/Debug/net10.0/SimpleMvcApp.deps.json          |    23 +
+   bin/Debug/net10.0/SimpleMvcApp.dll                |   Bin 0 -> 48128 bytes
+   bin/Debug/net10.0/SimpleMvcApp.exe                |   Bin 0 -> 162816 bytes
+   bin/Debug/net10.0/SimpleMvcApp.pdb                |   Bin 0 -> 34884 bytes
+   bin/Debug/net10.0/SimpleMvcApp.runtimeconfig.json |    19 +
+   .../SimpleMvcApp.staticwebassets.endpoints.json   |     1 +
+   .../SimpleMvcApp.staticwebassets.runtime.json     |     1 +
+   bin/Debug/net10.0/appsettings.Development.json    |     8 +
+   bin/Debug/net10.0/appsettings.json                |     9 +
+   ...NETCoreApp,Version=v10.0.AssemblyAttributes.cs |     4 +
+   obj/Debug/net10.0/SimpleMvcApp.AssemblyInfo.cs    |    22 +
+   .../net10.0/SimpleMvcApp.AssemblyInfoInputs.cache |     1 +
+   ...cApp.GeneratedMSBuildEditorConfig.editorconfig |    51 +
+   obj/Debug/net10.0/SimpleMvcApp.GlobalUsings.g.cs  |    17 +
+   ...leMvcApp.MvcApplicationPartsAssemblyInfo.cache |     0
+   .../net10.0/SimpleMvcApp.RazorAssemblyInfo.cache  |     1 +
+   .../net10.0/SimpleMvcApp.RazorAssemblyInfo.cs     |    17 +
+   obj/Debug/net10.0/SimpleMvcApp.assets.cache       |   Bin 0 -> 153 bytes
+   .../SimpleMvcApp.csproj.CoreCompileInputs.cache   |     1 +
+   .../SimpleMvcApp.csproj.FileListAbsolute.txt      |    97 +
+   obj/Debug/net10.0/SimpleMvcApp.dll                |   Bin 0 -> 48128 bytes
+   .../net10.0/SimpleMvcApp.genruntimeconfig.cache   |     1 +
+   obj/Debug/net10.0/SimpleMvcApp.pdb                |   Bin 0 -> 34884 bytes
+   obj/Debug/net10.0/apphost.exe                     |   Bin 0 -> 162816 bytes
+   0.0/staticwebassets.build.endpoints.json  |     1 +
+   obj/Debug/net10.0/staticwebassets.build.json      |     1 +
+   .../net10.0/staticwebassets.build.json.cache      |     1 +
+   .../net10.0/staticwebassets.development.json      |     1 +
+   obj/Debug/net10.0/swae.build.ex.cache             |     0
+   obj/SimpleMvcApp.csproj.nuget.dgspec.json         |   487 +
+   obj/SimpleMvcApp.csproj.nuget.g.props             |    15 +
+   obj/SimpleMvcApp.csproj.nuget.g.targets           |     2 +
+   obj/project.assets.json                           |   492 +
+   obj/project.nuget.cache                           |     8 +
+   wwwroot/css/site.css                              |    31 +
+   wwwroot/favicon.ico                               |   Bin 0 -> 5430 bytes
+   wwwroot/js/site.js                                |     4 +
+   wwwroot/lib/bootstrap/LICENSE                     |    22 +
+   wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css |  4085 ++++++
+   .sonarqube/out/0/output-cs/metrics.pb             |     6 +
+   .sonarqube/out/0/output-cs/symrefs.pb             |    20 +
+   .sonarqube/out/0/output-cs/telemetry.pb           |     1 +
+   .../out/0/output-cs/test-method-declarations.pb   |     0
+   .sonarqube/out/0/output-cs/token-cpd.pb           |   234 +
+   .sonarqube/out/0/output-cs/token-type.pb          |    22 +
+   .sonarqube/out/Processed.Telemetry.S4NET.json     |     8 +
+   .../out/Processed.Telemetry.Targets.S4NET.json    |     2 +
+   .sonarqube/out/ProjectInfo.log                    |    24 +
+   .sonarqube/out/ScannerEngineInput.json            |    96 +
+   .sonarqube/out/sonar-project.properties           |   125 +
+   Controllers/HomeController.cs                     |    24 +
+   Models/ErrorViewModel.cs                          |     8 +
+   Program.cs                                        |    31 +
+   Properties/launchSettings.json                    |    23 +
+   SimpleMvcApp.csproj                               |     9 +
+   Views/Home/Index.cshtml                           |     8 +
+   Views/Home/Privacy.cshtml                         |     6 +
+   Views/Shared/Error.cshtml                         |    25 +
+   Views/Shared/_Layout.cshtml                       |    50 +
+   Views/Shared/_Layout.cshtml.css                   |    48 +
+   Views/Shared/_ValidationScriptsPartial.cshtml     |     2 +
+   Views/_ViewImports.cshtml                         |     3 +
+   Views/_ViewStart.cshtml                           |     3 +
+   appsettings.Development.json                      |     8 +
+   appsettings.json                                  |     9 +
+   bin/Debug/net10.0/SimpleMvcApp.deps.json          |    23 +
+   bin/Debug/net10.0/SimpleMvcApp.dll                |   Bin 0 -> 48128 bytes
+   bin/Debug/net10.0/SimpleMvcApp.exe                |   Bin 0 -> 162816 bytes
+   bin/Debug/net10.0/SimpleMvcApp.pdb                |   Bin 0 -> 34884 bytes
+   bin/Debug/net10.0/SimpleMvcApp.runtimeconfig.json |    19 +
+   .../SimpleMvcApp.staticwebassets.endpoints.json   |     1 +
+   .../SimpleMvcApp.staticwebassets.runtime.json     |     1 +
+   bin/Debug/net10.0/appsettings.Development.json    |     8 +
+   bin/Debug/net10.0/appsettings.json                |     9 +
+   ...NETCoreApp,Version=v10.0.AssemblyAttributes.cs |     4 +
+   obj/Debug/net10.0/SimpleMvcApp.AssemblyInfo.cs    |    22 +
+   .../net10.0/SimpleMvcApp.AssemblyInfoInputs.cache |     1 +
+   ...cApp.GeneratedMSBuildEditorConfig.editorconfig |    51 +
+   obj/Debug/net10.0/SimpleMvcApp.GlobalUsings.g.cs  |    17 +
+   ...leMvcApp.MvcApplicationPartsAssemblyInfo.cache |     0
+   .../net10.0/SimpleMvcApp.RazorAssemblyInfo.cache  |     1 +
+   .../net10.0/SimpleMvcApp.RazorAssemblyInfo.cs     |    17 +
+   obj/Debug/net10.0/SimpleMvcApp.assets.cache       |   Bin 0 -> 153 bytes
+   .../SimpleMvcApp.csproj.CoreCompileInputs.cache   |     1 +
+   .../SimpleMvcApp.csproj.FileListAbsolute.txt      |    97 +
+   obj/Debug/net10.0/SimpleMvcApp.dll                |   Bin 0 -> 48128 bytes
+    obj/Debug/net10.0/rjimswa.dswa.cache.json         |     1 +
+   obj/Debug/net10.0/rjsmcshtml.dswa.cache.json      |     1 +
+   obj/Debug/net10.0/rjsmrazor.dswa.cache.json       |     1 +
+   obj/Debug/net10.0/rpswa.dswa.cache.json           |     1 +
+   .../Views/Shared/_Layout.cshtml.rz.scp.css        |    48 +
+   .../scopedcss/bundle/SimpleMvcApp.styles.css      |    49 +
+   .../projectbundle/SimpleMvcApp.bundle.scp.css     |    49 +
+   .../net10.0/staticwebassets.build.endpoints.json  |     1 +
+   obj/Debug/net10.0/staticwebassets.build.json      |     1 +
+   .../net10.0/staticwebassets.build.json.cache      |     1 +
+   .../net10.0/staticwebassets.development.json      |     1 +
+   obj/Debug/net10.0/swae.build.ex.cache             |     0
+   obj/SimpleMvcApp.csproj.nuget.dgspec.json         |   487 +
+   obj/SimpleMvcApp.csproj.nuget.g.props             |    15 +
+   obj/SimpleMvcApp.csproj.nuget.g.targets           |     2 +
+   obj/project.assets.json                           |   492 +
+   obj/project.nuget.cache                           |     8 +
+   wwwroot/css/site.css                              |    31 +
+   wwwroot/favicon.ico                               |   Bin 0 -> 5430 bytes
+   wwwroot/js/site.js                                |     4 +
+   wwwroot/lib/bootstrap/LICENSE                     |    22 +
+   wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css |  4085 ++++++
+   .../lib/bootstrap/dist/css/bootstrap-grid.css.map |     1 +
+   .../lib/bootstrap/dist/css/bootstrap-grid.min.css |     6 +
+   .../bootstrap/dist/css/bootstrap-grid.min.css.map |     1 +
+   .../lib/bootstrap/dist/css/bootstrap-grid.rtl.css |  4084 ++++++
+   .../bootstrap/dist/css/bootstrap-grid.rtl.css.map |     1 +
+   .../bootstrap/dist/css/bootstrap-grid.rtl.min.css |     6 +
+   .../dist/css/bootstrap-grid.rtl.min.css.map       |     1 +
+   .../lib/bootstrap/dist/css/bootstrap-reboot.css   |   597 +
+   .../bootstrap/dist/css/bootstrap-reboot.css.map   |     1 +
+   .../bootstrap/dist/css/bootstrap-reboot.min.css   |     6 +
+   .../dist/css/bootstrap-reboot.min.css.map         |     1 +
+   .../bootstrap/dist/css/bootstrap-reboot.rtl.css   |   594 +
+   .../dist/css/bootstrap-reboot.rtl.css.map         |     1 +
+   .../dist/css/bootstrap-reboot.rtl.min.css         |     6 +
+   .../dist/css/bootstrap-reboot.rtl.min.css.map     |     1 +
+   .../bootstrap/dist/css/bootstrap-utilities.css    |  5402 ++++++++
+   .../dist/css/bootstrap-utilities.css.map          |     1 +
+   .../dist/css/bootstrap-utilities.min.css          |     6 +
+   .../dist/css/bootstrap-utilities.min.css.map      |     1 +
+   .../dist/css/bootstrap-utilities.rtl.css          |  5393 ++++++++
+   .../dist/css/bootstrap-utilities.rtl.css.map      |     1 +
+   .../dist/css/bootstrap-utilities.rtl.min.css      |     6 +
+   .../dist/css/bootstrap-utilities.rtl.min.css.map  |     1 +
+   wwwroot/lib/bootstrap/dist/css/bootstrap.css      | 12057 ++++++++++++++++++
+   wwwroot/lib/bootstrap/dist/css/bootstrap.css.map  |     1 +
+   wwwroot/lib/bootstrap/dist/css/bootstrap.min.css  |     6 +
+   .../lib/bootstrap/dist/css/bootstrap.min.css.map  |     1 +
+   wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css  | 12030 +++++++++++++++++
+   .../lib/bootstrap/dist/css/bootstrap.rtl.css.map  |     1 +
+   .../lib/bootstrap/dist/css/bootstrap.rtl.min.css  |     6 +
+   .../bootstrap/dist/css/bootstrap.rtl.min.css.map  |     1 +
+   wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js |  6314 +++++++++
+   .../lib/bootstrap/dist/js/bootstrap.bundle.js.map |     1 +
+   .../lib/bootstrap/dist/js/bootstrap.bundle.min.js |     7 +
+   .../bootstrap/dist/js/bootstrap.bundle.min.js.map |     1 +
+   wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js    |  4447 +++++++
+   .../lib/bootstrap/dist/js/bootstrap.esm.js.map    |     1 +
+   .../lib/bootstrap/dist/js/bootstrap.esm.min.js    |     7 +
+   .../bootstrap/dist/js/bootstrap.esm.min.js.map    |     1 +
+   wwwroot/lib/bootstrap/dist/js/bootstrap.js        |  4494 +++++++
+   wwwroot/lib/bootstrap/dist/js/bootstrap.js.map    |     1 +
+   wwwroot/lib/bootstrap/dist/js/bootstrap.min.js    |     7 +
+   .../lib/bootstrap/dist/js/bootstrap.min.js.map    |     1 +
+   .../lib/jquery-validation-unobtrusive/LICENSE.txt |    23 +
+   .../dist/jquery.validate.unobtrusive.js           |   435 +
+   .../dist/jquery.validate.unobtrusive.min.js       |     8 +
+   wwwroot/lib/jquery-validation/LICENSE.md          |    22 +
+   .../jquery-validation/dist/additional-methods.js  |  1505 +++
+   .../dist/additional-methods.min.js                |     4 +
+   .../lib/jquery-validation/dist/jquery.validate.js |  1703 +++
+   .../jquery-validation/dist/jquery.validate.min.js |     4 +
+   wwwroot/lib/jquery/LICENSE.txt                    |    21 +
+   wwwroot/lib/jquery/dist/jquery.js                 | 10716 ++++++++++++++++
+   wwwroot/lib/jquery/dist/jquery.min.js             |     2 +
+   wwwroot/lib/jquery/dist/jquery.min.map            |     1 +
+   wwwroot/lib/jquery/dist/jquery.slim.js            |  8617 +++++++++++++
+   wwwroot/lib/jquery/dist/jquery.slim.min.js        |     2 +
+   wwwroot/lib/jquery/dist/jquery.slim.min.map       |     1 +
+   217 files changed, 88341 insertions(+)
+
+2025-12-03T05:39:22.716Z - ===== GIT LOGS END =====
