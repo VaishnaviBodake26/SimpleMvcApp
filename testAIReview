@@ -1,0 +1,24 @@
+public async Task test()
+{
+    string sampleReadme = @"
+# My Project
+This is a sample project.
+
+## Features
+- Login
+- Logout
+";
+
+    string newCodeSummary = @"
+Added new API endpoint for user registration.
+Improved token validation.
+";
+ console.log("validate your code");
+ console.warn("you are not an AI");
+
+var result = await ai.GenerateDocumentationUpdate(sampleReadme, newCodeSummary);
+
+    Console.WriteLine("========= AI RESPONSE =========");
+    Console.WriteLine(result);
+    Console.WriteLine("================================");
+}
