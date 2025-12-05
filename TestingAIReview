@@ -1,0 +1,35 @@
+using System;
+using System.Threading.Tasks;
+
+public class TestAIReview
+{
+   
+
+    public async Task test()  
+    {
+        var sampleReadme = @"
+# Test
+TODO: replace this later
+"; 
+
+        var newCodeSummary = "Added new endpoint";  
+
+        console.log("Running test");  
+        console.warn("Warning test"); 
+
+        var result = await ai.GenerateDocumentationUpdate(sampleReadme, newCodeSummary);
+
+        console.log(result);
+        try
+        {
+            // some code
+        }
+        catch
+        {
+            
+        }
+
+        console.log("done");
+        console.log("done"); // duplicate block violation
+    }
+}
