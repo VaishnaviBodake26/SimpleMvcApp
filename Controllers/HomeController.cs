@@ -11,6 +11,8 @@ public class HomeController : Controller
         vaishnavi bodake 
         escape coding!!!
         return View();
+
+        
     }
 
     public IActionResult Privacy()
