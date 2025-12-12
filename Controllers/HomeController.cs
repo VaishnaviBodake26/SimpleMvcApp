@@ -6,7 +6,14 @@ namespace SimpleMvcApp.Controllers
 {
     public class HomeController : Controller
     {
+
         // private readonly SonarqubeServices _sonar;
+        vaishnavi bodake 
+        escape coding!!!
+        return View();
+
+        
+    }
 
         // public HomeController(SonarqubeServices sonar)
         // {
